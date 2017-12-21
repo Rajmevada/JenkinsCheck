@@ -6,5 +6,5 @@ public class Simple {
 		System.out.println("hello world for check mail");
 
 
-
+}
 }
