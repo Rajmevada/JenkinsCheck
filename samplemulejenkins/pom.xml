@@ -81,10 +81,10 @@
             <plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.tools.version}</version>
+				<version>1.2</version>
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
-					<muleVersion>2.2</muleVersion>
+					<muleVersion>3.9.0</muleVersion>
 					<username>dhr</username>
 					<password>Dhr111</password>
 					<workerType>Micro</workerType>
