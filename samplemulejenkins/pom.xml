@@ -12,8 +12,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<cloudhub.username>dhr</cloudhub.username>
-		<cloudhub.pass>Dhr111</cloudhub.pass>
+		<cloudhub.username>****</cloudhub.username>
+		<cloudhub.pass>****</cloudhub.pass>
 		<cloudhub.environment.name>Production</cloudhub.environment.name>
 		<mule.version>3.9.0</mule.version>
 		<mule.tools.version>1.2</mule.tools.version>
