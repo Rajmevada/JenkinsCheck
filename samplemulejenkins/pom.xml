@@ -12,14 +12,15 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<cloudhub.username>****</cloudhub.username>
-		<cloudhub.pass>****</cloudhub.pass>
-		<cloudhub.environment.name>Production</cloudhub.environment.name>
+		<cloudhub.username>dhr</cloudhub.username>
+		<cloudhub.pass>Dhr111</cloudhub.pass>
+		<cloudhub.environment.name>dev</cloudhub.environment.name>
 		<mule.version>3.9.0</mule.version>
 		<mule.tools.version>1.2</mule.tools.version>
 		<munit.version>1.3.7</munit.version>
 		<mule.munit.support.version>3.9.1</mule.munit.support.version>
 		<application.name>samplemulejenkins</application.name>
+		<cloudhub_worker_type>Micro</cloudhub_worker_type>
 	</properties>
 
 	<build>
@@ -147,6 +148,7 @@
 									<password>${cloudhub.pass}</password>
 									<redeploy>true</redeploy>
 									<environment>${cloudhub.environment.name}</environment>
+									<workerType>${cloudhub_worker_type}</workerType>
 									<workers>1</workers>
 								</configuration>
 							</execution>
